@@ -1,0 +1,39 @@
+body{
+	width: 1000px;
+	margin:auto;
+	background-image: url(images.jpg);
+	font-family: sans-serif;
+}
+h1,h2{
+	text-align: center;
+	margin: 0;
+}
+ul{
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	list-style-type: none;
+}
+li{
+	padding: 5px 30px;
+}
+header{
+	background: #bf8f94;
+	border-radius: 20px;
+}
+div{
+	background: #e6e043;
+	border-radius: 20px;
+}
+p{
+	margin: 0;
+	padding: 10px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+	font-size: 18px;
+}
